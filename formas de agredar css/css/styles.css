@@ -1,0 +1,57 @@
+/* 
+Tipos de selectores 
+*/
+
+/** Selector universal */
+
+*{
+    color: red;
+}
+
+/** Selectores de tipo o etiqueta */
+
+/* primer ejemplo*/
+h1{
+    color: green; 
+}
+/*segundo ejemplo*/
+p{
+    color: black;
+}
+/*tercer ejemplo*/
+h1, h2, h3 {
+    color: blueviolet;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/**  Selectores desendientes*/ 
+
+/* Ejemplo 1*/
+p strong{
+    color: yellow;
+}
+/* Ejemplo 2*/
+p a span em {
+    text-decoration: underline;
+}
+
+/** Selectores por medio de una clase*/
+
+p.destacado{
+    color: brown;
+}
+
+
+/* Selectores por medio de id */
+
+#destacado {
+    color: red;
+}
+
+/*Combinacion de selectores básicos*/
+
+div.aviso span.especial {
+    background: yellow;
+}
